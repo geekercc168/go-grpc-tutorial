@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strings"
 
+	pb "github.com/geekercc168/go-grpc-tutorial/proto/hello_http"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
-	pb "github.com/jergoo/go-grpc-example/proto/hello_http"
 	"golang.org/x/net/context"
 	"golang.org/x/net/http2"
 	"google.golang.org/grpc"
